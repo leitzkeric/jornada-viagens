@@ -6,3 +6,18 @@
   background-position: center;
   background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 768px) {
+  .hero-img {
+    height: 620px;
+    background-image: url("../img/hero-tablet.jpg");
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    height: 620px;
+    background-image: url("../img/hero-desktop.jpg");
+    background-size: cover;
+  }
+}
